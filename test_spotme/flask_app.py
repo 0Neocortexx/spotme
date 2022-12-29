@@ -1,14 +1,7 @@
-""" List Pip:
-- pip install pytube
-- pip install flask_sqlalchemy
-"""
-
-from crypt import methods
-from flask import *
-import pytube as pt
-import os
-from flask_sqlalchemy import *
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 import pytube
+import os
 
 app = Flask(__name__)
 
